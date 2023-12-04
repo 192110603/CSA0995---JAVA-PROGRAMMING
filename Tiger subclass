@@ -1,0 +1,10 @@
+abstract class Animal {
+    abstract void makeSound();
+}
+
+class Tiger extends Animal {
+    @Override
+    void makeSound() {
+        System.out.println("Tiger roars");
+    }
+}
